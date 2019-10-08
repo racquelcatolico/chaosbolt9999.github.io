@@ -6,59 +6,69 @@ body { background-color: #5CDB95;
 	  color: #EDF5D1;
 overflow-x:hidden;
  }
-nav{
+.nav {
+	width: 100%;
 	position: sticky;
     top: 0;
     font-family: "Verdana", Geneva, sans-serif;
     font-size: 15px;
     font-weight: bold;
     color: #05386B;
-	height: 30px;
-	padding-left: 0.15%;
-	padding-right: 0.15%;
-	padding-top: 5px;
-	padding-bottom: 10px;
-	width: auto;
-	text-align: left;
+	width: 100%;
 	background-color: #8EE4AF;
+	display: block;
+	height: 55px;
 }
-
+img {
+	height: 35px;
+	width: auto;
+	padding: 0px 0px 0px 0px;
+}
 a:link {
 	color: #05386B;
 }
-
-.nav.nav2.nav3{
-	width: 5%;
-	height: 30px;
-	line-height: 30px;
+.nav a {
+	float: left;
+	padding: 1% 5% 1% 5%;
+	text-decoration: none;
+}
+.nav a:hover {
+	background-color: yellow;
+}
+button, .boop {
+	color: #05386B;
+	font-size: 15px;
+	border: none;
+	outline: none;
+	padding: 10px 15px 9px 25px;
+	margin: 0;
+	background-color: #8EE4AF;
+}
+.boop {
 	float: right;
+	overflow: hidden;
 }
-
-.nav.nav2{
-	margin-left: 2%;
-	margin-right: 2%;
-	width: 3%;
-	float: left;
-}
-.nav3 nav nav2:hover ul {
+.boop:hover .secret {
 	display: block;
-	position: relative;
-	background-color: #8fffd2;
 }
-li {
-	padding: 5px;
-	list-style-type: none;
-}
-.nav{
-	height: 30px;
-	margin-left: 2.5%;
-	margin-right: 29.5%;
+.secret {
+	top: 53px;
+	display: none;
+	position: absolute;
+	background-color: #91FFEF;
+	z-index: 1;
+	padding: 5px 15px;
 	float: left;
-	width: 10%;
-	line-height: 30px;
-	vertical-align: middle;
 }
-
+.secret a {
+	padding: 10px 15px 10px 15px;
+	text-decoration: none;
+	display: block;
+}
+.pic {
+	height: 25px;
+	padding: 0px 0px 0px 0px;
+}
 .content {
 	float: bottom;
 	height: 500px;
