@@ -112,7 +112,7 @@ button, .boop {
 	height: 430px;
   	width: 49%;
 }
-.diffimg{object-fit: contain;width: 100%;height:100%;}
+diffimg{object-fit: contain;width: 100%;height:100%;}
 img{object-fit: contain;width: 100%;}
 footer{
 	position: relative;
