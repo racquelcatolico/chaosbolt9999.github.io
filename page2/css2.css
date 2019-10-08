@@ -1,8 +1,6 @@
 @charset "utf-8"; 
 /* PAGE 2 */
-* {
-	box-sizing: border-box;
-}
+
 /* Header below. */
 body { 
 	background-color: #5CDB95;
