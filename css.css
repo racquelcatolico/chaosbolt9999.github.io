@@ -19,10 +19,7 @@ overflow-x:hidden;
 	display: block;
 	height: 55px;
 }
-img {
-	height: 35px;
-	width: auto;
-	padding: 0px 0px 0px 0px;
+
 }
 a:link {
 	color: #05386B;
