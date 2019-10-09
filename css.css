@@ -29,7 +29,7 @@ a:link {
 	text-decoration: none;
 }
 .nav a:hover {
-	background-color: yellow;
+	background-color: #74a38c;
 }
 button, .boop {
 	color: #05386B;
