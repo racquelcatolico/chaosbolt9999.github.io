@@ -3,7 +3,7 @@ body { background-color: #5CDB95;
 	  font-family: "Verdana", Geneva, sans-serif;
 	  margin: 0;
 	  color: #EDF5D1;
-
+	 overflow-x:hidden;
  }
 .nav {
 	width: 100%;
