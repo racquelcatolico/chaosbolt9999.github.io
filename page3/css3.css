@@ -236,6 +236,7 @@ button, .boop {
 }
 #icon{object-fit: contain;
 	width: 100%;}
+#logo{object-fit:contain;height:100%;}
 footer{
 	position: relative;
 	bottom: 0;
