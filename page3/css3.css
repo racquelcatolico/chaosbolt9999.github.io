@@ -111,7 +111,15 @@ nav{
 	text-align: justify;
 	font-family: "Amiko";
 }
-.cover{height:383px ;width:422.6px ; padding:0;z-index: 10;opacity: 0;background-color:#5CDB95;position: relative;top: 0.8%;left:0.9%; }
+.cover{height:383px ;
+	width:422.6px ;
+	padding:0;
+	z-index: 10;
+	opacity: 0;
+	background-color:#5CDB95;
+	position: relative;
+	top: 0.8%;
+	left:0.9%; }
 
 
 
@@ -213,11 +221,11 @@ nav{
 	text-align: center;
 	font-style: italic; 
 }
-
+#icon{object-fit: contain;
+	width: 100%;}
 footer{
 	position: relative;
-	left: 0px;
-	bottom: 0px;
+	bottom: 0;
     height: 150px;
     width: 100%;
     padding-left: 0.15%;
@@ -240,7 +248,7 @@ footer{
 }
 .ficontainer{
 	
-	border: 1px solid black;
+	
 	margin: auto;
 	width: 70%;
 	height: 50px;
@@ -250,20 +258,20 @@ footer{
 }
 .ficon{
 	
-	border: 1px solid black;
+	
 	margin: auto;
 	width: 4%;
 	height: 0;
     padding-bottom: 4%;
 	border-radius: 100%;
-	margin-left: 17%;
+	margin-left: 16%;
 	float: left;
 	
 	
 }
 .ficon2{
 
-	border: 1px solid black;
+	
 	width: 4%;
 	height: 0;
     padding-bottom: 4%;
