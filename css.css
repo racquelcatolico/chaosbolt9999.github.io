@@ -94,6 +94,16 @@ button, .boop {
 	padding-right: 20%;
 	padding-bottom: 5%;
 }
+.content {
+	float: bottom;
+	height: 500px;
+	margin-top: 20px;
+	padding-top: 20px;
+	width: 100%;
+	line-height: 35px;
+	background-color:#379683;
+}
+
 .about {
 	float: left;
 	height: 330px;
