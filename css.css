@@ -216,7 +216,7 @@ footer{
 }
 
 .qcircle:hover {
-	width: 8%;
-	height: 8%;
+	width: 100vw;
+	height: 100vh;
 
 }
